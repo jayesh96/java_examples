@@ -1,0 +1,38 @@
+import java.util.Scanner;
+
+public class printChar1{
+	public static void main(String... str)
+	{
+	String s;
+	char c[]=new char[20];
+	int i=0;
+	Scanner sc=new Scanner(System.in);
+	System.out.println("enter the String");
+	s=sc.next();
+	for(i=0;i<=4;i++)
+{
+	c[i]=s.charAt(i);
+	System.out.println(c[i]);	
+}
+
+
+
+
+
+
+
+
+
+
+	/*while(c[i]!='\0')
+	{
+	 c[i]=s.charAt[i];
+	i++;
+	}*/
+
+		
+	
+	
+	}
+
+}

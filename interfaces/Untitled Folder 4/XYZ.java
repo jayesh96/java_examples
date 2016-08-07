@@ -1,0 +1,16 @@
+interface x
+{
+	public void A();
+	public void B();
+	public void C();
+	public void D();
+}
+
+abstract class XYZ implements x
+{
+public void A()
+{
+System.out.println("A");
+}
+}
+

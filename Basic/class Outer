@@ -1,0 +1,17 @@
+class Outer
+{
+	private int a=10;
+	class Inner
+	{
+	
+	private int b=10;	
+	}
+	public static void main(String... str)
+	{
+		Outer o=new Outer();
+		Outer.Inner ob=o.new Inner();
+		System.out.println(ob.b);
+	}
+
+
+}

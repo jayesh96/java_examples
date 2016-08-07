@@ -1,0 +1,14 @@
+# abstract class can be through keyword abstract while interface can be done with the help of interface
+# abstract class can extend only one class while interface can extend more than one class
+# abstract class cant have any instance while interface cant have any instance
+# abstract class implements the interface (public interfaces) that they can partial define or declare the method
+# interface cant extend any class
+# abstract class variable may be normal,static or final but interface can be always final type
+# class may be declare any variable while interface always initialize variable
+# abstract class can declare and define variable and in interface only declared
+# abstract class can have normal method and interface can have abstract method
+# abstract class-partial,interface-full abstraction
+# two interfaces extends while abstract class extends one class at a time
+# abstract class doesnt support multiple inheritance while interface support mu ltiple inheritance
+# abstract can have constructor while interface cant have constructor
+#

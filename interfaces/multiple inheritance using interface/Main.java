@@ -1,0 +1,43 @@
+interface x
+{
+	public void X();
+}
+
+interface y
+{
+	public void Y();
+}
+
+class A implements x,y
+{
+	public void hi()
+	{
+	System.out.println("function Hi()");
+	}
+	public void X()
+	{
+	System.out.println("X");		
+	}
+	public void Y()
+	{
+	System.out.println("Y");	
+	}
+		
+	
+	
+}
+
+class Main
+{
+	public static void main(String... args)
+	{
+		A o=new A();
+		o.hi();
+		x obj=new A();
+		obj.X();
+		y obj1=new A();
+		obj1.Y();
+		obj1.hi();
+	}
+}
+

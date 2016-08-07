@@ -1,0 +1,23 @@
+interface x
+{
+
+int i=5;
+public void hi();
+	
+}
+class XYZ implements x
+{
+	public void hi()
+	{
+	System.out.println("my value is"+i);
+	}
+}
+
+class MainInt
+{
+	public static void main(String... args)
+	{
+		XYZ o=new XYZ();
+		o.hi();
+	}
+}

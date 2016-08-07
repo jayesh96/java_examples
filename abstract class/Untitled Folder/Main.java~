@@ -1,0 +1,21 @@
+abstract class A
+{
+abstract public void X();
+}
+
+abstract class B extends A
+{
+public void X()
+{
+System.out.println("B-X");
+}
+}
+
+class Main
+{
+public static void main(String... args)
+{
+	
+}
+
+}

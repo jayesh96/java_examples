@@ -1,0 +1,30 @@
+abstract class A
+{
+abstract public void X();
+abstract public void Y();
+}
+
+abstract class B extends A
+{
+public void X()
+{
+System.out.println("B-X");
+}
+}
+class C extends B
+{
+public void Y()
+/*{
+System.out.println("Y");
+}
+}*/
+class Main
+{
+public static void main(String... args)
+{
+C o=new C();
+o.X();
+//o.Y();	
+}
+
+}

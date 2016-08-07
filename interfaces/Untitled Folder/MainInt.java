@@ -1,0 +1,35 @@
+interface x
+{
+
+int i=5;
+public void hi();
+public void hello();
+	
+}
+abstract class XYZ implements x
+{
+	public void hello()
+	{
+	System.out.println("hello");
+	}
+}
+
+class C extends XYZ
+{	public void hi()
+	{
+
+	System.out.println("X");
+
+	} 
+	
+}
+
+class Main
+{
+public static void main(String... args)
+{
+C o=new C();
+o.hello();	
+}
+
+}

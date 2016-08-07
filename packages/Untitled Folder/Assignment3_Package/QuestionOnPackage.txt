@@ -1,0 +1,35 @@
+<India> :-
+1.virat.java
+* hitSix()
+2.dhoni.java
+*hitFour()
+
+* Create a package named india
+* In the above mentioned package create two classes:-
+1.virat.java
+2.dhoni.java
+*In first class(virat) create method  hitSix()
+*In second class(dhoni) create method  hitFour()
+----------------------------------------------------------------------------------------------------------------------
+
+<Australia> :-
+1.lee.java
+*play()
+2.morgan.java
+*play()
+
+* Create a package named australia
+* In the above mentioned package create two classes:-
+1.lee.java
+2.max.java
+*In first class(lee) create method  play()
+*In second class(max) create method  play()
+-----------------------------------------------------------------------------------------------------------------------
+
+<Kotla>:-
+1.Match.java
+
+* Create a package named kotla
+* In the above mentioned package create class Match.java
+* Call the above packages india and australia in this class
+-----------------------------------------------------------------------------------------------------------------------------

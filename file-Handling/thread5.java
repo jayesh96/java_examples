@@ -1,0 +1,29 @@
+import java.lang.Thread;
+class Threadworm extends Thread
+{
+
+	public void run()
+	{
+	for(int i=1;i<=5;i++)
+	{
+	System.out.println(Thread.currentThread().getName());
+	try{
+		Thread.sleep(1000);
+	}	
+	catch(Exception e){}
+	}
+	}
+}
+
+class Main
+{
+
+public static void main(String[] args)
+{
+Threadworm ob = new Threadworm();
+ob.start();
+Threadworm ob1 = new Threadworm();
+ob1.start();
+
+}
+}

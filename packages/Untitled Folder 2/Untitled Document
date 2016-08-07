@@ -1,0 +1,15 @@
+package kotla;
+import india.*;
+import australia.*;
+class Match
+{
+public static void main(String args[])
+{
+virat v=new virat();
+dhoni d=new dhoni();
+Gaayle g=new Gayle();
+Bravo b=new Bravo();
+
+
+}
+}

@@ -1,0 +1,23 @@
+import java.lang.Thread;
+class thread2 extends Threads
+{
+public static void run()
+{
+for(i=0;i<5;i++)
+{
+	
+	System.out.println("i= "+i);
+}
+
+}
+
+class Thread2Demo
+{
+	public static void main(String[] arsgs)
+	{
+		Thread t = new thread();
+		t.start()
+	}
+}
+
+}

@@ -1,0 +1,31 @@
+interface x
+{
+	public void Hello()
+	{
+		System.out.println("Hello");
+	}
+}
+interface y
+{
+	public void Hi()
+	{
+		System.out.println("Hi");
+	}
+}
+interface z
+{
+	public void H()
+	{
+		System.out.println("H");
+	}
+}
+
+abstract class XYZ implements x,y,z
+{
+	public static void main(String... args)
+	{
+		
+	}
+
+}
+

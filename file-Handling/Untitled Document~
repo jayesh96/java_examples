@@ -1,0 +1,16 @@
+import java.io.*
+
+class THread
+{
+
+public static void main(String[] args) throws IOException
+{
+	BufferReader br = new BufferReader(new InputStreamReader(System.in))
+	System.out.println("File");
+	char ch = (char) br.read();
+	System.out.println("Output after line char")
+
+}	
+
+}
+
